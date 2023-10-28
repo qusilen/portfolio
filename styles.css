@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Sometype Mono', monospace;
     color: #ffffff;
     background-color: #202020;
     margin: 0;
@@ -18,11 +18,21 @@ nav {
     align-items: center;
     width: 100%;
     max-width:100%;
+    position: fixed;
+    top: 0;
 }
 
 .logo h1 {
     color: #bf8ed4;
     margin: 0;
+    margin-top: 24px;
+}
+
+.logo h6 {
+    color: #bf8ed4;
+    margin: 0;
+    margin-left: 50px;
+    margin-bottom: 24px
 }
 
 .nav-links {
@@ -45,8 +55,8 @@ nav {
     color: #ffffff;
 }
 
-header, section {
-    padding: 20px;
+section {
+    padding: 100px;
     text-align: center; /* Kısımları ortala */
     max-width: 900px; /* Maksimum içerik genişliği */
     width: 100%;
@@ -131,4 +141,50 @@ footer {
     align-items: center;
     width: 100%;
     max-width:100%;
+}
+
+.form-group {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 18px;
+    color: #bf8ed4;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bf8ed4;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #bf8ed4;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #8e44ad;
+}
+
+hr {
+    width: 300px;
+    border: 2px solid #bf8ed4; 
+    margin: 0;
+}
+
+section#about {
+    margin-top: 150px;
 }

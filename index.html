@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="tr">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sometype+Mono&display=swap">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +9,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
     <nav>
         <div class="logo">
-            <h1>Esra Özkutlu</h1>
+            <h1>Esra Özkutlu <br> <h6>"qusilen"</h6></h1>
         </div>
         <ul class="nav-links">
             <li><a href="#about">Hakkımda</a></li>
@@ -26,7 +27,7 @@
         <p>Süleyman Demirel Üniversitesi, Bilgisayar Mühendisliği Bölümü 4. sınıf öğrencisiyim.</p>
         <p>Yazılım stajımı Transvaro Elekton Aletleri San. ve Tic. A.Ş.'de yaptım.</p>
     </section>
-
+    <hr>
     <section id="abilities">
         <h2>Yetenekler</h2>
         <div class="skill">
@@ -65,7 +66,7 @@
             <p>2/5</p>
         </div>
     </section>
-
+    <hr>
     <section id="projects">
         <h2>Projeler</h2>
         <div class="project">
@@ -84,7 +85,7 @@
             <a href="https://github.com/qusilen/portfolio" target="_blank">Proje Reposu</a>
         </div>
     </section>
-
+    <hr>
     <section id="contact">
         <h2>İletişim</h2>
         <div>
@@ -92,6 +93,21 @@
             <a href="https://www.linkedin.com/in/esra-özkutlu-699943179/" target="_blank"><img src="Linkedin.png" alt="Linkedin Logo" id="linkedin" ></a>
             <a href="https://github.com/qusilen" target="_blank"><img src="Github.png" alt="Github Logo" id="github" ></a>
         </div>
+        <form>
+            <div class="form-group">
+                <label for="name">Ad Soyad</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-posta</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mesajınız</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Gönder</button>
+        </form>
     </section>
 
     <footer>
