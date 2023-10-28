@@ -25,14 +25,7 @@ nav {
 .logo h1 {
     color: #bf8ed4;
     margin: 0;
-    margin-top: 24px;
-}
-
-.logo h6 {
-    color: #bf8ed4;
-    margin: 0;
-    margin-left: 50px;
-    margin-bottom: 24px
+    margin-top: auto;
 }
 
 .nav-links {
